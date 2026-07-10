@@ -18,6 +18,8 @@
 
 1x Bulk capacitor (10-47 µF)
 
+2x 4.7 kΩ I2C Pull-Up
+
 3x Decoupling capacitors (0.1 µF)
 
 1x Li-Po battery (200 mAh)
