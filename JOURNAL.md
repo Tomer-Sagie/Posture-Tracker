@@ -69,3 +69,17 @@ Of course, there where so many more problems, but I dont want to bore anyone rea
 ### Next Time
 Next up is the PCB itself, how exciting!
 
+## July 14/15 - PCB Routing, probably the most important part in hardware design
+
+### A brief overview of what I did
+so basicaly today I had to route the pcb, which would determine the layout of all of my parts in the real assembled design. It was very important for me to make this compact and accessible. 
+to accomplish this I would place the xiao port, switch, and battery and motor connectors on the edge of the board for ease of use.
+
+### the process
+when starting out I used the default 0.2mm traces for my routing. I wanted to double check this and as it turns out there are different sized traces for different use cases, rendering my original traces useless. Nonetheless I perservered.
+
+When I thought I was done, I ran the DRC, and a whopping 39 errors. Luckily, a lot of these errors where the same thingd multiple times. For instance, In some of the narrower spaces, the increased traces I drew interfered with other pads and traces, so I had to change and alter portions. this was especialy true for the imu, which was microscopic.
+I also had issues with some of the ground pins being stranded away from the copper pour I placed, so I just routed them to the back of the board. there where a bunch more issues but that should sufice to cover my process for these days
+
+All in all pretty successful portion of the design process.
+
