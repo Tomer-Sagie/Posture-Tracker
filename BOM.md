@@ -1,16 +1,16 @@
-# Bill Of Materials (OLD)
+# Bill Of Materials
 
 ### Here is the BOM!
 
 1x Seeed XIAO ESP32-S3
 
-1x LSM6DSV16X 6-Axis IMU
+1x LSM6DSVQTR IMU
 
 1x Coin vibration motor (3V ERM)
 
-1x N-channel MOSFET (AO3400A)
+1x N-channel MOSFET
 
-1x Schottky flyback diode (B5819W)
+1x Schottky flyback diode
 
 1x 100 Ω Gate resistor
 
@@ -28,9 +28,11 @@
 
 1x SPDT Slide power switch
 
-1x JST-PH 2-pin connector
+2x JST-PH 2-pin connector
 
 1x Custom PCB
 
 1x 3D-printed enclosure
+
+
 
