@@ -83,3 +83,24 @@ I also had issues with some of the ground pins being stranded away from the copp
 
 All in all pretty successful portion of the design process.
 
+## July 16-18 - I had to replace the one thing that my design truly relies on :(((( (the IMU for the actual posture tracking part of my posture tracking device)
+
+### What Went Wrong
+After finishing the pcb and schematic I wanted to put it in to jlcpb to get a quote, and it came out to almost one hundred dollars (see the image below)
+
+that was actualy crazy to me and so I did some investigating and it was because I chose to use a LSM6DSV16X IMU, which made my pcb switch from economic to standard, wildly inflating prices.
+
+A little background on why I chose the LSM6DSV16X: it had smart power features to make the device last a long time, and a machine learning core for more advanced tracking making it a perfect fit.
+
+### My solution
+I could either suck it up and go forward with a 100+ device, or fix it which would require to restructure everything. Fix it i did.
+I wanted to find a comprable IMU that was supported in the economic manufacturing, similar footprint to the LSM6DSV16X, and had power regulating features that would not degrade my original plan.
+
+I originaly looked into other candidates like the MPU-6500(which a website I looked at for footprints literaly told me was too old to use). I also looked at the ICM-45686, ICM-42670-P, and LSM6DSOX, which where all standard-only.
+
+I then came across the LSM6DSVQTR, one of the only IMUs comprable to the LSM6DSV16X, on the economic tier. It retained the Machine learning core, low power mode, and had an almost identical footrpint to the original.
+
+So, with that change, and a few components that where replaced with a basic instead of extended variant, I had to rebuild the schematic. That was not as bad as I thought and took about an hour.
+
+### Next up: CAD
+
