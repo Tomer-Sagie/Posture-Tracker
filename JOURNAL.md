@@ -9,6 +9,7 @@ created_at: 06/25/2026
 ## This is in addition to the timelapse logs :)
 
 ## June 25/26
+## HOURS: 2 (no timelapse for this because stardance/outpost only wants techcial stuff timelapsed)
 In these days I began the project by brainstorming what I want it to actualy be, what constraints and requirenments I have, etc. In order to fully flesh out the idea and prepare for coming days.
 Some issues I ran into:
 
@@ -19,12 +20,14 @@ Some issues I ran into:
 This was difficult because I dont really use github, and I always thought you needed to use a terminal, so I spent way too much time trying to figure that out until I did it manualy on the site.
 
 ## July 5/6 ( i need to write more abt the part finding, like how I came to chose stuff)
+## HOURS: 5 (no timelapse for this because, again, stardance/outpost only wants techcial stuff timelapsed)
 After coming back from vacation, I began working on the BOM, keeping in mind hackclub constraints. This part was very hard as many of the parts I wanted where cheap up front, but where 40+ with shipping through 
 AliExpress, so I now have to find better ways to source these parts. 
 
 These prices are crazy, especially considering the fact that I dont expect to get too much funding for this :\. Regardless, it shouldnt be too much of an issue as these components are not very expensive, its just a matter of looking in the right places.
 
 ## July 9
+## Hours: 2 (no timelapse for this ... , yeah you get it)
 After a quick break, I decided to work a bit more on the BOM, and deciding where I could get each part. 
 
 I ended up landing on digikey and adafruit(after a long time of research) This is because I wanted to consolidate the parts vendors as much as possible, to reduce delivery fees, and I think it turned out great! Finaly, I can now get started on the schematic which I will do on KiCad!
@@ -41,6 +44,7 @@ All of these questions where answered in due time however! (about 2 hours).
 Great progress has been made so far, and next time I will get startted on the schematics (hopefuly accompanied by a cool timelapse and pictures oooh)
 
 ## July 10th - Schematics!!
+## Hours: 1.5 You can check this out on my stardance project
 
 ### Goal
 Today, I wanted to finalize the BOM and get everything on to the KiCad Schematic, (making sure nothing gets fried :)
@@ -70,6 +74,7 @@ Of course, there where so many more problems, but I dont want to bore anyone rea
 Next up is the PCB itself, how exciting!
 
 ## July 14/15 - PCB Routing, probably the most important part in hardware design
+## Hours: 2 You can check this out on my stardance project
 
 ### A brief overview of what I did
 so basicaly today I had to route the pcb, which would determine the layout of all of my parts in the real assembled design. It was very important for me to make this compact and accessible. 
@@ -84,6 +89,7 @@ I also had issues with some of the ground pins being stranded away from the copp
 All in all pretty successful portion of the design process.
 
 ## July 16-18 - I had to replace the one thing that my design truly relies on :(((( (the IMU for the actual posture tracking part of my posture tracking device)
+## Hours: 1 You can check this out on my stardance project
 
 ### What Went Wrong
 After finishing the pcb and schematic I wanted to put it in to jlcpb to get a quote, and it came out to almost one hundred dollars (see the image below)
@@ -99,6 +105,13 @@ I wanted to find a comprable IMU that was supported in the economic manufacturin
 I originaly looked into other candidates like the MPU-6500(which a website I looked at for footprints literaly told me was too old to use). I also looked at the ICM-45686, ICM-42670-P, and LSM6DSOX, which where all standard-only.
 
 I then came across the LSM6DSVQTR, one of the only IMUs comprable to the LSM6DSV16X, on the economic tier. It retained the Machine learning core, low power mode, and had an almost identical footrpint to the original.
+
+## July 20-30 - CAD
+## Hours: 5
+
+Oh my freaking goodness everything was lost. Not entirely true but like the timelapse got lost and I cant prove my hours until I find a way to export the timelapse which will have to wait I guess. Regardless, even though I cant post a devlog on stardance I can do so here
+
+
 
 So, with that change, and a few components that where replaced with a basic instead of extended variant, I had to rebuild the schematic. That was not as bad as I thought and took about an hour.
 
